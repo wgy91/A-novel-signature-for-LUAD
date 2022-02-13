@@ -2,7 +2,7 @@
 library(limma)
 library(reshape2)
 library(ggpubr)
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\33.scoreCor\\test\\22")      
+setwd("E:\\22")      
 
 
 scoreCor=function(riskFile=null, scoreFile=null, project=null){
