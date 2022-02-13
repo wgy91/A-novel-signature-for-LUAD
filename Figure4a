@@ -3,7 +3,7 @@ library(limma)
 library(pheatmap)
 riskFile="trainRisk.txt"    
 cliFile="clinical.txt"       
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\28.riskHeatmap")
+setwd("E:\\riskHeatmap")
 
 
 cli=read.table(cliFile, header=T, sep="\t", check.names=F, row.names=1)
