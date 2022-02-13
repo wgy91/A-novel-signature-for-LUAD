@@ -3,7 +3,7 @@
 library(survival)
 pFilter=0.05                                                             
 
-setwd("E:\\ÎÄÕÂ\\ÎÄÕÂ\\»µËÀ+·ÎÏÙ°©\\TCGAÊı¾İ¿â£¨BÕ¾£©\\10µ¥ÒòËØ·ÖÎö")                   
+setwd("E:\\å•å› ç´ åˆ†æ")                   
 
 rt=read.table("geneexp.txt",header=T,sep="\t",check.names=F,row.names=1)  
 rt$futime=rt$futime/365                                                    
