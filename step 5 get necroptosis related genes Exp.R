@@ -1,6 +1,6 @@
 
 library(limma)      
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\07.pyroptosis")   
+setwd("E:\\necroptosis")   
 
 
 rt=read.table("symbol.txt", header=T, sep="\t", check.names=F)
@@ -19,6 +19,6 @@ geneExp=data[sameGene,]
 
 
 out=rbind(ID=colnames(geneExp),geneExp)
-write.table(out,file="tcga.pyroptosisExp.txt",sep="\t",quote=F,col.names=F)
+write.table(out,file="tcga.necroptosisExp.txt",sep="\t",quote=F,col.names=F)
 
 
