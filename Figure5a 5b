@@ -13,7 +13,7 @@ if(qvalueFilter>0.05){
 	colorSel="pvalue"
 }
 	
-setwd("E:\\文章\\文章\\坏死+肺腺癌\\132pyroptosis\\30.GO")                   
+setwd("E:\\GO+KEGG")                   
 rt=read.table("TCGA.riskDiff.txt", header=T, sep="\t", check.names=F)   
 
 
@@ -56,7 +56,7 @@ KEGG=KEGG[(KEGG$pvalue<pvalueFilter & KEGG$qvalue<qvalueFilter),]
 
 write.table(KEGG,file="KEGG.txt",sep="\t",quote=F,row.names = F)
 
-#定义显示Term数目
+#瀹氫箟鏄剧ずTerm鏁扮洰
 showNum=30
 if(nrow(KEGG)<showNum){
   showNum=nrow(KEGG)
