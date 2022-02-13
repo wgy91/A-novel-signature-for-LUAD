@@ -1,8 +1,8 @@
 
 library(limma)
 library(pheatmap)
-expFile="tcga.pyroptosisExp.txt"       
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\10.TCGAdiff")     
+expFile="tcga.necroptosisExp.txt"       
+setwd("E:\\TCGAdiff")     
 
 
 rt=read.table(expFile, header=T, sep="\t", check.names=F)
