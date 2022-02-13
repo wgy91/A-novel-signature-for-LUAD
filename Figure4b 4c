@@ -1,6 +1,6 @@
 
 library(survival)      
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\26.TCGAindep")  
+setwd("E:\\TCGAindep")  
 
 
 bioForest=function(coxFile=null, forestFile=null, forestCol=null){
