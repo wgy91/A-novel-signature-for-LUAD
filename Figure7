@@ -4,7 +4,7 @@ devtools::install_github('dviraran/xCell')
 library(GSVA)
 library(limma)
 library(GSEABase)
-setwd("E:\\ндуб\\ндуб\\╩╣кю+╥ноы╟╘\\132pyroptosis\\32.ssGSEA\\try")          
+setwd("E:\\ssGSEA\\try")          
 
 
 immuneScore=function(expFile=null, gmtFile=null, project=null){
